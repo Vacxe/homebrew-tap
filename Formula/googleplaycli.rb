@@ -1,4 +1,4 @@
-class GooglePlayCli < Formula
+class Googleplaycli < Formula
   desc "Command line interface for Google play"
   homepage "https://github.com/Vacxe/google-play-cli"
   url "https://github.com/Vacxe/google-play-cli/releases/download/0.1/googleplaycli-0.1.zip"
