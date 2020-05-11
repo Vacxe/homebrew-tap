@@ -11,6 +11,6 @@ class Googleplaycli < Formula
   def install
     rm_f Dir["bin/*.bat"]
     libexec.install %w[bin lib]
-    (bin/"googleplaycli").write_env_script libexec/"bin/googleplaycli", Language::Java.overridable_java_home_env
+    (bin/"google-play-cli").write_env_script libexec/"bin/google-play-cli", Language::Java.overridable_java_home_env
   end
 end
