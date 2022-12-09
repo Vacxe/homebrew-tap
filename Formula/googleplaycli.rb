@@ -1,12 +1,12 @@
 class Googleplaycli < Formula
   desc "Command line interface for Google play"
   homepage "https://github.com/Vacxe/google-play-cli-kt"
-  url "https://github.com/Vacxe/google-play-cli-kt/releases/download/0.1.3/google-play-cli-0.1.3.zip"
-  sha256 "1fc4a2e3c780f3e0881f7ce18e541ca4f237076b219588e3c0bdb9ae0f8507d9"
+  url "https://github.com/Vacxe/google-play-cli-kt/releases/download/0.2.0/google-play-cli-0.2.0.zip"
+  sha256 "598538e433a21a2a0f0f32b9928697832a5f37834ca74f7f66f1cb08a94343ea"
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on :java => "12"
 
   def install
     rm_f Dir["bin/*.bat"]
