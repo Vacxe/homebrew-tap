@@ -6,7 +6,7 @@ class Googleplaycli < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk@12"
+  depends_on "openjdk@11"
 
   def install
     rm_f Dir["bin/*.bat"]
