@@ -12,6 +12,6 @@ class DangerKotlinX86 < Formula
   
  def install
     libexec.install %w[bin lib]
-    #(bin/"danger-kotlin").write_env_script libexec/"bin/danger-kotlin", Language::Java.overridable_java_home_env
+    (bin/"danger-kotlin").write_env_script libexec/"bin/danger-kotlin", Language::Java.overridable_java_home_env
   end
 end
