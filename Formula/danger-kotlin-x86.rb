@@ -1,4 +1,4 @@
-class DangerKotlin < Formula
+class DangerKotlinX86 < Formula
   desc "Write your Dangerfiles in Kotlin"
   homepage "https://github.com/danger/kotlin"
   version "1.3.0" 
