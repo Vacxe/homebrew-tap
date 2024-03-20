@@ -11,8 +11,9 @@ class DangerKotlin < Formula
   depends_on "kotlin"
   
  def install
-    libexec.install %w[bin lib]
-    ln_sf libexec/"lib/danger", libexec/"testlib"
+    libexec.install %w[bin]
+    lib.install %w[lib]
+    #ln_sf libexec/"lib/danger", libexec/"testlib"
     (bin/"danger-kotlin").write_env_script libexec/"bin/danger-kotlin", Language::Java.overridable_java_home_env
   end
 end
