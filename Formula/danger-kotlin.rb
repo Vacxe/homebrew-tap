@@ -14,8 +14,5 @@ class DangerKotlin < Formula
     libexec.install %w[bin]
     prefix.install %w[lib]
     (bin/"danger-kotlin").write_env_script libexec/"bin/danger-kotlin", Language::Java.overridable_java_home_env
-  end
- def post_install
-    mkdir_p "/usr/local/lib/danger/libs"
-  end
+ end
 end
