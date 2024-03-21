@@ -3,7 +3,7 @@ class DangerKotlinX86 < Formula
   homepage "https://github.com/danger/kotlin"
   version "1.3.0" 
   url "https://github.com/Vacxe/kotlin/releases/download/#{version}/danger-kotlin-macosX64.tar"
-  sha256 "9f4c28ed5e5b521f0474528e9d0ecb51ba65f092b37be3cab414327d7b513de4"
+  sha256 "fb274e210841194b18e138087f007d89efb5bcb0c205cfc110ba3ff32ff28e7c"
   head "https://github.com/danger/kotlin.git"
 
   # Use the vendored danger
