@@ -1,8 +1,8 @@
 class Googleplaycli < Formula
   desc "Command line interface for Google play"
   homepage "https://github.com/Vacxe/google-play-cli-kt"
-  url "https://github.com/Vacxe/google-play-cli-kt/releases/download/0.4.0/google-play-cli.tar"
-  sha256 "628e6d754214526422e6ba7edf1a41532f47b1ec51362b768e79b3f3e1a4bfa6  "
+  url "https://github.com/Vacxe/google-play-cli-kt/releases/download/0.4.1/google-play-cli.tar"
+  sha256 "112c514f3677bca9e7efd0335a9f882c67b61e34f1fba469a4617c00a22f5029    "
 
   depends_on "openjdk@11"
 
